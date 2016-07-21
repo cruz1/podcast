@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Adamcg;
+    src: url('Downloads\ADAM.CG') format("opentype");
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+
+}
+header{
+    background: #00795f;
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+nav ul{
+    background-color: #43a286;
+    overflow:hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-height 0.8s;
+    -ms-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    -o-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li:hover{
+    background-color: #ffa500;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 20% 0;
+}
+ul li{
+    line-height: 2em;
+    list-style-type: none;
+
+}
+
+input{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width:300px;
+    height: 20px;
+    transition: height 0.5s;
+
+}
+input:hover{
+    height: 35px;
+    transition: height 0.5s;
+
+}
+
+section{
+    line-height: 1.5em;
+    margin: 3% 15%;
+}
+.why{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #ffa500;
+
+}
+.utvarp{
+    text-align: center;
+}
+.inputButton{
+    width: 300px;
+}
+.handle{
+    width: 100;
+    background: #005c48;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+.showing{
+
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contact{
+    text-align: center;
+    margin: 4% 15%;
+}
+
+@media screen and (max-width:580px) {
+    nav ul{
+        max-height: 0;
+    }
+    nav ul li{
+        box-sizing: :border-box;
+        width: 100%;
+        padding: 15px;
+    }
+    .showing{
+        max-height: 20em;
+    }
+    .handle{
+        display: block;
+    }
+}
